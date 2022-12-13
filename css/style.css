@@ -1,0 +1,42 @@
+:root{
+    --background: #D7DEDC;
+    --linkedin: #0077B5;
+    --discord: #5865F2;
+    --github: #602C8E;
+    --email: #0072C6;
+}
+
+body{
+    background-color: var(--background);
+    color: #454545;
+}
+.fa-github{
+    color: var(--github);
+}
+.fa-discord{
+    color:var(--discord);
+}
+.fa-linkedin{
+    color:var(--linkedin);
+}
+.fa-envelope{
+    color:var(--email);
+}
+.fa-github:hover{
+    color: var(--github);
+}
+.fa-discord:hover{
+    color:var(--discord);
+}
+.fa-linkedin:hover{
+    color:var(--linkedin);
+}
+.fa-envelope:hover{
+    color:var(--email);
+}
+h1{
+    text-align: center;
+}
+a{
+    width:100%;
+}
