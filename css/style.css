@@ -79,7 +79,13 @@ h1{
     background-color: var(--dark-background);
     color: #F1F1F1;
 }
-
+@media screen and (max-width: 1500px) {
+    .dark-mode-button{
+        float: none;
+        text-align: center;
+        padding-top: 40px;
+    }
+}
 @media screen and (max-width: 767px) {
     .col-md-1{
         text-align: center;
@@ -90,10 +96,4 @@ h1{
     .mobile{
         display:block;
     }
-    .dark-mode-button {
-        float:none;
-        text-align: center;
-        padding-top: 40px;
-    }
-
 }
