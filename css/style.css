@@ -64,16 +64,14 @@ h1{
 .dark-mode-button{
     float:right;
     padding: 10px 50px;
-    font-size: 1em;
 }
 .change {
     cursor: pointer;
-    border: 1px solid #555;
-    border-radius: 40%;
-    width: 20px;
+    border: 1px solid;
+    border-radius: 30%;
     text-align: center;
-    padding: 5px;
-    margin-left: 8px;
+    padding: 6px;
+    margin-left: 6px;
 }
 .dark-mode{
     background-color: var(--dark-background);
