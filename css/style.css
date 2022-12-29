@@ -1,5 +1,6 @@
 :root{
-    --background: #D7DEDC;
+    --background: #F1F1F1;
+    --dark-background: #252525;
     --linkedin: #0077B5;
     --discord: #5865F2;
     --github: #602C8E;
@@ -8,35 +9,91 @@
 
 body{
     background-color: var(--background);
-    color: #454545;
+    color: #252525;
 }
+
 .fa-github{
     color: var(--github);
 }
+
 .fa-discord{
     color:var(--discord);
 }
+
 .fa-linkedin{
     color:var(--linkedin);
 }
+
 .fa-envelope{
     color:var(--email);
 }
+
 .fa-github:hover{
     color: var(--github);
 }
+
 .fa-discord:hover{
     color:var(--discord);
 }
+
 .fa-linkedin:hover{
     color:var(--linkedin);
 }
+
 .fa-envelope:hover{
     color:var(--email);
 }
+
 h1{
     text-align: center;
+    font-size: 90%;
 }
-a{
-    width:100%;
+
+.fa{
+    font-size: 3em;
+}
+
+.fab{
+    font-size: 3em;
+}
+
+.mobile{
+    display:none
+}
+
+.dark-mode-button{
+    float:right;
+    padding: 10px 50px;
+    font-size: 1em;
+}
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+.dark-mode{
+    background-color: var(--dark-background);
+    color: #F1F1F1;
+}
+
+@media screen and (max-width: 767px) {
+    .col-md-1{
+        text-align: center;
+    }
+    .desktop{
+        display:none;
+    }
+    .mobile{
+        display:block;
+    }
+    .dark-mode-button {
+        float:none;
+        text-align: center;
+        padding-top: 40px;
+    }
+
 }
